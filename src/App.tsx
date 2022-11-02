@@ -6,10 +6,13 @@ const App: FC = () => {
   return (
     <div className="App">
      <div className="Header">
+      <div className="inputcontainer">
       <input type = "text" placeholder = "Task..." />
       <input type= "number" placeholder= "Dealdline... "/>
+      </div>
       <button>Add Task</button>
     </div>
+    <div className="Todo List"></div>
     </div>
   );
 }
