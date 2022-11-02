@@ -8,6 +8,7 @@ const App: FC = () => {
      <div className="Header">
       <input type = "text" placeholder = "Task..." />
       <input type= "number" placeholder= "Dealdline... "/>
+      <button>Add Task</button>
     </div>
     </div>
   );
