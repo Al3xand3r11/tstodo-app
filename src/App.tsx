@@ -12,7 +12,7 @@ const App: FC = () => {
       </div>
       <button>Add Task</button>
     </div>
-    <div className="Todo List"></div>
+    <div className="TodoList"></div>
     </div>
   );
 }
