@@ -79,10 +79,22 @@ body{
 .task .content span{
   display: grid;
   place-items: center;
-  border: 1px solid white;
+  border: 1px solid blueviolet;
   width: 100%;
   height: 100%;
   font-size: 18px;
   border-right: none;
   background-color: black;
+  
+}
+
+.task button{
+  flex: 20%;
+  height: 100%;
+  border: none;
+  background-color: bisque;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: black;
+  cursor: crosshair;
 }
